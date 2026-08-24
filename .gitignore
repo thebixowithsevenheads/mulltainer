@@ -1,0 +1,13 @@
+# Bytecode do Python gerado ao rodar os testes e os payloads.
+__pycache__/
+*.pyc
+
+# Workspace do processo de execucao (ledger, briefs, relatorios, diffs de review).
+.superpowers/
+
+# Saida intermediaria da geracao do GIF (frames, castings de teste, recortes).
+demo/build/
+
+# Gravacoes cruas na raiz: o asciinema salva ali por padrao, e um `git add`
+# amplo ja varreu uma pra dentro do repo com machineid e bootid da maquina.
+/*.cast
